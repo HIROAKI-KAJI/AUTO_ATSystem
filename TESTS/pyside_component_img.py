@@ -9,7 +9,7 @@ class MainWindow(QMainWindow):
         self.setWindowTitle(self.title)
 
         label = QLabel(self)
-        pixmap = QPixmap('images/images.jpeg')
+        pixmap = QPixmap('./TESTS/images/images.jpeg')
 
         label.setPixmap(pixmap)
         self.setCentralWidget(label)
